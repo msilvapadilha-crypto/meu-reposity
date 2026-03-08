@@ -5,12 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meus 15 Anos - [SEU NOME]</title>
     <style>
-        body { font-family: 'Georgia', serif; background-color: #fff5f8; color: #685858; text-align: center; margin: 0; padding: 0; }
-        header { background-image: url(image/meus\ 15\ anos.jpg); padding: 50px 20px; border-bottom: 5px solid; 
+        body { font-family: 'Georgia', serif; background-color: #090607; color: #685858; text-align: center; margin: 0; padding: 0; }
+        header { background-image: url('image/meus 15 anos.jpg'); padding: 50px 20px; border-bottom: 5px solid; 
         background-size: cover;
+        background-position: center;
         background-position: no-repeat;
+        min-width: 300px;
         padding: 100px 20px;
         border-bottom: 5px solid #d63384;
+
+        @media (max-width: 600px) {
+            header{
+                min-height: 200px;
+                padding: 60px 10px;
+            }
+        }
        
         }
         h1 { font-size: 3rem; color: #f6f2f4; margin-bottom: 40px; }
@@ -46,7 +55,7 @@
     <hr style="border: 0.5px solid #f8d7da;">
 
     <h3>Confirme sua Presença</h3>
-    <form action="https://formsubmit.co/msilvapadilha@gmail.com" method="POST">
+    <form action="https://formsubmit.co/Kakau123gmal@gmail.com" method="POST">
         <input type="text" name="nome" placeholder="Seu Nome Completo" required>
         <select name="presenca" required>
             <option value="">Você irá comparecer?</option>
