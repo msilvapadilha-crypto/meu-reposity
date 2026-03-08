@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus 15 Anos - [SEU NOME]</title>
+    <style>
+        body { font-family: 'Georgia', serif; background-color: #fff5f8; color: #685858; text-align: center; margin: 0; padding: 0; }
+        header { background-image: url(image/meus\ 15\ anos.jpg); padding: 50px 20px; border-bottom: 5px solid; 
+        background-size: cover;
+        background-position: no-repeat;
+        padding: 100px 20px;
+        border-bottom: 5px solid #d63384;
+       
+        }
+        h1 { font-size: 3rem; color: #f6f2f4; margin-bottom: 40px; }
+        .info-section { padding: 40px 20px; max-width: 600px; margin: auto; background: white; border-radius: 15px; margin-top: -30px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .details { font-size: 1.2rem; line-height: 1.8; margin: 20px 0; }
+        .btn { display: inline-block; padding: 15px 30px; background-color: #d63384; color: white; text-decoration: none; border-radius: 25px; font-weight: bold; transition: 0.3s; margin-top: 20px; border: none; cursor: pointer; }
+        .btn:hover { background-color: #b02a6a; }
+        footer { padding: 30px; font-size: 0.9rem; color: #888; }
+        input, select { width: 90%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px; }
+       
+    </style>
+</head>
+<body>
+
+<header>
+    <h1></h1>
+    
+</header>
+
+<div class="info-section">
+    <h2>Você é meu convidado especial!</h2>
+    <div class="details">
+        <p>📍 <strong>Local:</strong> [NOME DO BUFFET OU ESPAÇO]<br>
+        [Rua Exemplo, 123 - Bairro, Cidade]</p>
+        
+        <p>📅 <strong>Data:</strong> [DIA] de [MÊS] de 2026</p>
+        
+        <p>⏰ <strong>Horário:</strong> [HORÁRIO DA FESTA]</p>
+
+        <p> <strong>Obs:</strong> [Entrada: R$ 50,00]</p>
+    </div>
+
+    <hr style="border: 0.5px solid #f8d7da;">
+
+    <h3>Confirme sua Presença</h3>
+    <form action="https://formsubmit.co/msilvapadilha@gmail.com" method="POST">
+        <input type="text" name="nome" placeholder="Seu Nome Completo" required>
+        <select name="presenca" required>
+            <option value="">Você irá comparecer?</option>
+            <option value="sim">Sim, com certeza!</option>
+            <option value="nao">Infelizmente não poderei.</option>
+        </select>
+        <input type="number" name="acompanhantes" placeholder="Quantos acompanhantes?">
+        <button type="submit" class="btn">Confirmar Presença</button>
+    </form>
+</div>
+
+<footer>
+    <p>Mal posso esperar para te ver lá! ✨</p>
+</footer>
+
+</body>
+</html>
